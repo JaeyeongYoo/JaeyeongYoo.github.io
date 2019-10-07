@@ -9,6 +9,12 @@ body
   min-width: 770px;
 }
 
+@font-face
+{
+  font-family: 'myfont';
+    src: url(JaeyeongYoo.github.io/font/KARNIVBL.ttf) format("truetype"), url(JaeyeongYoo.github.io/font/KARNIVOL.ttf) format("truetype");
+}  
+
 header
 {
   width: 100%;
@@ -31,7 +37,7 @@ img.title
 nav
 {
   font-size: 30px;
-  font-family: "JaeyeongYoo.github.io/font/KARNIVBL.ttf", cursive;
+  font-family: "KARNIVORE Bold", myfont, cursive;
   margin: 30px;
   padding: 0px;
 }
