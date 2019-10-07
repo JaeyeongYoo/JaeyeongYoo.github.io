@@ -7,13 +7,7 @@ body
   padding: 0px;
   margin: 0px;
   min-width: 770px;
-}
-
-@font-face
-{
-  font-family: 'myfont';
-    src: url(JaeyeongYoo.github.io/font/KARNIVBL.ttf) format("truetype"), url(JaeyeongYoo.github.io/font/KARNIVOL.ttf) format("truetype");
-}  
+} 
 
 header
 {
