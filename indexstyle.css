@@ -1,7 +1,7 @@
-@font-face{ font-family: "KarnivoreBlue"; src:url('/JaeyeongYoo.github.io/font/KARNIVBL.eot'); }
-@font-face{ font-family: "KarnivoreBlue"; src:url('/JaeyeongYoo.github.io/font/KARNIVBL.woff'); }
-@font-face{ font-family: "KarnivoreLite"; src:url('/JaeyeongYoo.github.io/font/KARNIVOL.eot'); }
-@font-face{ font-family: "KarnivoreLite"; src:url('/JaeyeongYoo.github.io/font/KARNIVOL.woff'); }  
+@font-face{ font-family: "Karnivore Blue"; src:url('/JaeyeongYoo.github.io/font/KARNIVBL.eot'); }
+@font-face{ font-family: "Karnivore Blue"; src:url('/JaeyeongYoo.github.io/font/KARNIVBL.woff'); }
+@font-face{ font-family: "Karnivore Lite"; src:url('/JaeyeongYoo.github.io/font/KARNIVOL.eot'); }
+@font-face{ font-family: "Karnivore Lite"; src:url('/JaeyeongYoo.github.io/font/KARNIVOL.woff'); }  
  
 
 
@@ -38,7 +38,7 @@ img.title
 nav
 {
   font-size: 30px;
-  font-family: "KARNIVORE Blue", cursive;
+  font-family: "Karnivore Blue", cursive;
   margin: 30px;
   padding: 0px;
 }
@@ -66,7 +66,7 @@ nav ul li
 nav ul li a
 {
   color: #FFFFFF;
-  font-family: "KARNIVORE Lite", cursive;
+  font-family: "Karnivore Lite", cursive;
   font-size:20px;
   text-decoration: none;
   text-align: right;
