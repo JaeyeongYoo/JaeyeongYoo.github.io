@@ -1,6 +1,18 @@
-@font-face{ font-family: "Karnivore Blue"; src:url('/JaeyeongYoo.github.io/font/KARNIVBL.eot'); }
-@font-face{ font-family: "Karnivore Blue"; src:url('/JaeyeongYoo.github.io/font/KARNIVBL.woff'); }
-@font-face{ font-family: "Karnivore Lite"; src:url('/JaeyeongYoo.github.io/font/KARNIVOL.eot'); }
+@font-face
+{ 
+ font-family: "Karnivore Blue"; 
+ src:url(./font/KARNIVBL.eot) format('embedded-opentype'),
+  url(./font/KARNIVBL.woff) format('woff'),
+  url(./font/KARNIVBL.ttf) format('truetype');
+}
+
+@font-face
+{ 
+ font-family: "Karnivore Lite"; 
+ src:url(./font/KARNIVOL.eot) format('embedded-opentype'),
+  url(./font/KARNIVOL.woff) format('woff'),
+  url(./font/KARNIVOL.ttf) format('truetype'); 
+}
 @font-face{ font-family: "Karnivore Lite"; src:url('/JaeyeongYoo.github.io/font/KARNIVOL.woff'); }  
  
 
