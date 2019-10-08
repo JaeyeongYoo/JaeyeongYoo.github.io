@@ -13,10 +13,8 @@
   url(./font/KARNIVOL.woff) format('woff'),
   url(./font/KARNIVOL.ttf) format('truetype'); 
 }
-@font-face{ font-family: "Karnivore Lite"; src:url('/JaeyeongYoo.github.io/font/KARNIVOL.woff'); }  
+
  
-
-
 body
 {
   width: 100%;
