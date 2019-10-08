@@ -1,3 +1,10 @@
+@font-face{ font-family: "KarnivoreBlue"; src:url('/JaeyeongYoo.github.io/font/KARNIVBL.eot'); }
+@font-face{ font-family: "KarnivoreBlue"; src:url('/JaeyeongYoo.github.io/font/KARNIVBL.woff'); }
+@font-face{ font-family: "KarnivoreLite"; src:url('/JaeyeongYoo.github.io/font/KARNIVOL.eot'); }
+@font-face{ font-family: "KarnivoreLite"; src:url('/JaeyeongYoo.github.io/font/KARNIVOL.woff'); }  
+ 
+
+
 body
 {
   width: 100%;
