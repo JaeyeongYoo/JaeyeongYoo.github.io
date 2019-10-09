@@ -8,10 +8,10 @@
 
 @font-face
 {
- font-family: "Pink";
- src:url(./font/365pink.eot) format('embedded-opentype'),
-  url(./font/365pink.woff) format('woff'),
-  url(./font/365pink.ttf) format('truetype');
+ font-family: "Koverwatch";
+ src:url(./font/koverwatch.eot) format('embedded-opentype'),
+  url(./font/koverwatch.woff) format('woff'),
+  url(./font/koverwatch.ttf) format('truetype');
 }
 
 @font-face
@@ -50,12 +50,15 @@ header
   min-width: 300px;
   padding: 0px;
   margin: 0px;
+  margin-right: 50px;
 }
 
 header a img.title
 {
+
   padding-right: 20px;
 }
+
 
 ul, li, ol { list-style: none; }
 
@@ -75,7 +78,6 @@ nav
   display: table-cell;
   text-align: left;
   font-family: "Consola", monospace;
-
   margin-top: 50px;
   padding-right: 100px;
 }
@@ -113,54 +115,41 @@ hr
 
 section
 {
+  width: 770px;
   display: table-cell;
-
   margin-top: 50px;
-  text-align: left;
+  text-align: center;
 }
 
-section article{
-  font-family: "Bernard", monospace;
-  font-size: 60px;
-  margin: 30px;
-}
-
-section article div.chimage
+section div.overwatch
 {
   display: inline;
-  margin-top: 20px;
-  margin-left: -10px;
-}
-
-section table
-{
-  min-width: 700px;
-  font-family: "Pink", serif;
-  font-size: 22px;
-  width: 750px;
-  margin: 10px;
-  padding: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-section table tr td.date
-{
-  width: 250px;
-}
-
-section table tr td
-{
-  height: 35px;
+  font-family: "Koverwatch", serif;
+  font-size: 80px;
+  padding-left: 10px;
 }
 
 
-section table caption
+section article
 {
-  font-family: "Tint", serif;
+  font-family: "Tint", monospace;
+  text-align: left;
+  font-size: 20px;
+  margin: 30px;
+  line-height: 30px;
+}
+
+section article div
+{
+  display: inline;
   font-size: 40px;
-  margin: 20px;
+}
 
+section article.battletag
+{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
 }
 
 footer
