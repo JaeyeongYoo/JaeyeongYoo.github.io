@@ -18,8 +18,8 @@
 {
  font-family: "Tint";
  src:url(./font/THEflowerTint.eot) format('embedded-opentype'),
-  url(./font//THEflowerTint.woff) format('woff'),
-  url(./font//THEflowerTint.ttf) format('truetype');
+  url(./font/THEflowerTint.woff) format('woff'),
+  url(./font/THEflowerTint.ttf) format('truetype');
 }
 
 @font-face
