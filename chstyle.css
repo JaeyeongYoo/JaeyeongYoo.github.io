@@ -25,9 +25,9 @@
 @font-face
 {
  font-family: "Consola";
- src:url(./font/Consola.eot) format('embedded-opentype'),
-  url(./font/Consola.woff) format('woff'),
-  url(./font/Consola.ttf) format('truetype');
+ src:url(./font/consola.eot) format('embedded-opentype'),
+  url(./font/consola.woff) format('woff'),
+  url(./font/consola.ttf) format('truetype');
 }
 
 body
