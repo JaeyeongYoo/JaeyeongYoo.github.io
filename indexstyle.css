@@ -1,20 +1,27 @@
 @font-face
-{ 
- font-family: "Karnivore Blue"; 
+{
+ font-family: "Karnivore Blue";
  src:url(./font/KARNIVBL.eot) format('embedded-opentype'),
   url(./font/KARNIVBL.woff) format('woff'),
   url(./font/KARNIVBL.ttf) format('truetype');
 }
 
 @font-face
-{ 
- font-family: "Karnivore Lite"; 
+{
+ font-family: "Karnivore Lite";
  src:url(./font/KARNIVOL.eot) format('embedded-opentype'),
   url(./font/KARNIVOL.woff) format('woff'),
-  url(./font/KARNIVOL.ttf) format('truetype'); 
+  url(./font/KARNIVOL.ttf) format('truetype');
 }
 
- 
+@font-face
+{
+  font-family: "HoonSlim";
+  src:url(./font/HoonSlimskinnyL.eot) format('embedded-opentype'),
+   url(./font/HoonSlimskinnyL.woff) format('woff'),
+   url(./font/HoonSlimskinnyL.ttf) format('truetype');
+}
+
 body
 {
   width: 100%;
@@ -24,7 +31,8 @@ body
   padding: 0px;
   margin: 0px;
   min-width: 770px;
-} 
+}
+
 
 header
 {
@@ -48,14 +56,14 @@ img.title
 nav
 {
   font-size: 30px;
-  font-family: "Karnivore Blue", cursive;
+  font-family: "KARNIVORE Blue", cursive;
   margin: 30px;
   padding: 0px;
 }
 
 nav div
 {
-  font-size: 50px;
+  font-size: 60px;
   width: 500px;
   display: inline;
   margin: 0px;
@@ -76,7 +84,7 @@ nav ul li
 nav ul li a
 {
   color: #FFFFFF;
-  font-family: "Karnivore Lite", cursive;
+  font-family: "KARNIVORE Lite", cursive;
   font-size:20px;
   text-decoration: none;
   text-align: right;
@@ -88,10 +96,11 @@ nav ul li a:hover
   color: #FFABE4;
 }
 
-div.chess
+div.menubar
 {
-  margin: 70px;
+  margin-top: 70px;
   padding: 30px;
+  padding-bottom: 130px;
 }
 
 section
@@ -100,11 +109,30 @@ section
   padding: 15px;
 }
 
+section article img
+{
+  position: relative;
+  transition:opacity 0.5s;
+  z-index: 10;
+}
+
+section article img:hover
+{
+  opacity: 0;
+}
+
+section article div.content
+{
+  position: relative;
+  margin-top: -350px;
+}
+
+
 footer
 {
   text-align: center;
   background-color: #000000;
   color: #FFFFFF;
-  margin: 0px;
+  margin: 20px;
   padding: 0px;
 }
