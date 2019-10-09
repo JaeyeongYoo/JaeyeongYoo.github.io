@@ -8,10 +8,10 @@
 
 @font-face
 {
- font-family: "Pink";
- src:url(./font/365pink.eot) format('embedded-opentype'),
-  url(./font/365pink.woff) format('woff'),
-  url(./font/365pink.ttf) format('truetype');
+ font-family: "Movie";
+ src:url(./font/moviefont.eot) format('embedded-opentype'),
+  url(./font/moviefont.woff) format('woff'),
+  url(./font/moviefont.ttf) format('truetype');
 }
 
 @font-face
@@ -67,11 +67,6 @@ div.menubar
   padding-bottom: 60px;
 }
 
-div.tablecell
-{
-  display: table;
-}
-
 nav
 {
   display: table-cell;
@@ -106,63 +101,36 @@ nav ul li a:hover
   color: #ff6b75;
 }
 
-hr
-{
-  border-width: 2px;
-  border-color: #ff6b75;
-  border-style: solid;
-}
 
 section
 {
   display: table-cell;
-
   margin-top: 50px;
   text-align: left;
 }
 
-section article{
-  font-family: "Bernard", monospace;
-  font-size: 60px;
-  margin: 30px;
+section article
+{
+  font-family: "Consola", serif;
+  margin: 50px;
 }
 
-section article div.chimage
+section article p, section article ul
 {
-  display: inline;
-  margin-top: 20px;
-  margin-left: -10px;
+  font-family: "Tint", sans-serif;
+  font-size: 20px;
 }
 
-section table
+div[class="title"]
 {
-  min-width: 700px;
-  font-family: "Pink", serif;
-  font-size: 22px;
-  width: 750px;
-  margin: 10px;
-  padding: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  font-family: "Bernard", serif;
+  font-size: 50px;
+  padding: 30px;
 }
 
-section table tr td.date
+section table tr td img
 {
-  width: 250px;
-}
-
-section table tr td
-{
-  height: 35px;
-}
-
-
-section table caption
-{
-  font-family: "Tint", serif;
-  font-size: 40px;
-  margin: 20px;
-
+  width: 400px;
 }
 
 footer
