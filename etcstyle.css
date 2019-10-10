@@ -1,9 +1,9 @@
 @font-face
 {
- font-family: "Koverwatch";
- src:url(./font/koverwatch.eot) format('embedded-opentype'),
-  url(./font/koverwatch.woff) format('woff'),
-  url(./font/koverwatch.ttf) format('truetype');
+ font-family: "Spring";
+ src:url(./font/210springR.eot) format('embedded-opentype'),
+  url(./font/210springR.woff) format('woff'),
+  url(./font/210springR.ttf) format('truetype');
 }
 
 @font-face
@@ -48,7 +48,7 @@ header
 header a img.title
 {
   padding-top: 50px;
-  padding-right: 20px;
+  padding-right: 60px;
 }
 
 
@@ -60,12 +60,12 @@ div.menubar
   padding-bottom: 60px;
 }
 
-
 nav
 {
   display: table-cell;
   text-align: left;
   font-family: "Consola", monospace;
+
   margin-top: 50px;
   padding-right: 100px;
 }
@@ -91,46 +91,36 @@ nav ul li a
 
 nav ul li a:hover
 {
-  color: #fa9c1e;
+  color: #57a8f4;
 }
+
 
 section
 {
-  width: 770px;
   display: table-cell;
   margin-top: 50px;
-  text-align: center;
-}
-
-section div.overwatch
-{
-  display: inline;
-  font-family: "Koverwatch", serif;
-  font-size: 80px;
-  padding-left: 10px;
-}
-
-
-section article
-{
-  font-family: "Tint", monospace;
   text-align: left;
-  font-size: 20px;
-  margin: 30px;
-  line-height: 30px;
 }
 
-section article div
+section div
 {
-  display: inline;
-  font-size: 40px;
+  font-family: "Tint", cursive;
+  font-size: 50px;
+  padding-bottom: 30px;
 }
 
-section article.battletag
+div[class="title"]
 {
-  text-align: center;
+  font-family: "Spring", serif;
+  font-size: 50px;
   padding: 10px;
-  margin: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+section table tr td img
+{
+  width: 400px;
 }
 
 footer

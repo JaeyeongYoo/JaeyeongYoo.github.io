@@ -8,14 +8,6 @@
 
 @font-face
 {
- font-family: "Movie";
- src:url(./font/moviefont.eot) format('embedded-opentype'),
-  url(./font/moviefont.woff) format('woff'),
-  url(./font/moviefont.ttf) format('truetype');
-}
-
-@font-face
-{
  font-family: "Tint";
  src:url(./font/THEflowerTint.eot) format('embedded-opentype'),
   url(./font/THEflowerTint.woff) format('woff'),
@@ -38,8 +30,9 @@ body
   color: #000000;
   text-align: center;
   padding: 0px;
-  margin: 0px;
+  margin: auto;
   min-width: 770px;
+  max-width: 1500px;
 }
 
 header
@@ -55,7 +48,7 @@ header
 header a img.title
 {
   padding-top: 50px;
-  padding-right: 20px;
+  padding-right: 60px;
 }
 
 
@@ -98,7 +91,7 @@ nav ul li a
 
 nav ul li a:hover
 {
-  color: #ff6b75;
+  color: #cfde53;
 }
 
 
@@ -113,12 +106,14 @@ section article
 {
   font-family: "Consola", serif;
   margin: 50px;
+  line-height: 30px;
 }
 
 section article p, section article ul
 {
   font-family: "Tint", sans-serif;
   font-size: 20px;
+  max-width: 800px;
 }
 
 div[class="title"]
